@@ -12,6 +12,10 @@ class Program
 
         Console.WriteLine("Kode Pos: " + kode.getKodePos(kelurahan));
 
+        DoorMachine pintu = new DoorMachine();
+
+        pintu.BukaPintu();
+        pintu.KunciPintu();
 
     }
 
